@@ -21,7 +21,7 @@ if($_POST['subject'] == 1) {
    $subject = 'Тема письма';
 }
 
-$to = "murin.89@list.ru";
+$to = "********.89@list.ru";
 $from = trim($_POST['email']);
 
 $message = htmlspecialchars($_POST['message']);
